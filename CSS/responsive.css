@@ -1,0 +1,145 @@
+@media(max-width: 1200px){
+
+}
+
+
+@media(max-width: 1000px){
+    .footer{
+        gap: 40%;
+    }
+}
+
+@media(max-width: 960px){
+    .footer{
+        gap: 25%;
+    }
+
+    .header{
+        gap: 10%;
+    }
+}
+
+@media(max-width: 850px){
+    .contact{
+        flex-direction: column;
+
+    }
+
+    .texte_contact{
+        margin-bottom: 5%;
+
+        width: 75%;
+    }
+
+    .options_contact{
+        gap: 2%;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .texte{
+
+        font-size: 45px;
+    }
+
+    .grid-container{
+        grid-template-columns: 200px 200px 200px;
+    }
+
+    .imageGrande{
+        width: 200px;
+        height: 250px;
+    }
+
+    .a_propos_container{
+        flex-direction: column;
+    }
+
+    .aPropos{
+        margin-top: 5%;
+
+        width: 75%;
+    }
+    
+}
+
+@media (max-width: 700px) {
+    .reseaux{
+        display: none;
+    }
+
+    .header{
+        flex-direction: column;
+        gap: 15%;
+        padding-top: 0;
+    }
+
+    .footer{
+        gap: 15%;
+    }
+
+    .grid-container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 250px 250px ;
+        grid-template-rows: auto;
+        column-gap: 7%;
+        row-gap: 1em;
+        grid-template-areas: 
+        "box-1 box-2";
+    }
+
+    .box-3{
+        display: none;
+    }
+}
+
+
+@media(max-width: 570px){
+    .grid-container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 250px 250px ;
+        grid-template-rows: auto;
+        column-gap: 1%;
+        row-gap: 1em;
+        grid-template-areas: 
+        "box-1 box-2";
+    }
+
+    .footer{
+        flex-direction: column;
+        gap: 15%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 400px){
+    .grid-container{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: 200px 200px ;
+        grid-template-rows: auto;
+        column-gap: 20px;
+        row-gap: 1em;
+        grid-template-areas: 
+        "box-1 box-2";
+    }
+
+    .imageGrande{
+        width: 200px;
+ 
+        border-radius: none;
+        padding: 0;
+        margin: 0;
+    
+        box-shadow: 0 0px 10px rgba(0, 0, 0, 0.485);
+    
+        transition: ease-in-out 0.2s ;
+    }
+}

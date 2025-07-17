@@ -1,0 +1,73 @@
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+    gap: 20%;
+
+    background-color: rgb(var(--beige));
+
+    padding: 15px;
+
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.2);
+
+    padding-left: 0;
+    padding-right: 5%;
+}
+
+.logo{
+    width: 60px;
+    height: auto;
+}
+
+.centre_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    gap: 15%;
+}
+
+.options_site{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    gap: 10%;
+
+    text-decoration: none;
+
+    width: 100%;
+    height: auto;
+}
+
+.titre_entreprise{
+    font-family: var(--roboto);
+}
+
+.lien{
+    text-decoration: none;
+    font-family: var(--roboto);
+    color: var(--noir);
+
+    transition: 0.3s ease-in-out;
+}
+
+.lien:hover{
+    text-decoration: underline;
+}
+
+.reseaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: 20%;
+}

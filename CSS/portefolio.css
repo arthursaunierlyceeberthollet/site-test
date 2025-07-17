@@ -1,0 +1,73 @@
+.grid-container{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: auto;
+    column-gap: 7%;
+    row-gap: 1em;
+    grid-template-areas: 
+    "box-1 box-2 box-3";
+}
+
+.box-3{
+    display: block;
+}
+
+.imageGrande{
+    width: 250px;
+    height: 350px;
+    border-radius: none;
+    padding: 0;
+    margin: 0;
+
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.485);
+
+    transition: ease-in-out 0.2s ;
+}
+
+.imageGrande:hover{
+    transform: scale(1.8);
+    border-radius: 25px;
+
+    box-shadow: 0 0px 20px rgba(0, 0, 0, 0.741);
+
+    cursor: pointer;
+}
+
+.fabrication{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    margin: 5%;
+}
+
+.restauration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    margin: 5%;
+}
+
+.marqueterie{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+
+    margin: 5%;
+}
+
+.titre_section_portefolio{
+    font-family: var(--roboto);
+    font-size: 35px;
+
+    color: rgb(var(--noir));
+}
