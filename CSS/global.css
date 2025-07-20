@@ -31,7 +31,7 @@ body{
     
     color: rgb(var(--noir));
     
-    justify-self: center;
+    align-self: center;
     margin: 3%;
 }
 .titrePortefolio{
