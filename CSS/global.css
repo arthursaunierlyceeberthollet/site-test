@@ -34,6 +34,15 @@ body{
     justify-self: center;
     margin: 3%;
 }
+.titrePortefolio{
+    font-family: var(--roboto);
+    font-size: 45px;
+    
+    color: rgb(var(--noir));
+    
+    justify-self: center;
+    margin: 3%;
+}
 
 .section{
     display: flex;
